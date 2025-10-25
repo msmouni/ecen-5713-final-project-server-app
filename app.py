@@ -3,7 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 
-DB_FILE = "/var/lib/pi-home-sensors_data/data.db"
+DB_FILE = "/var/lib/rpi_sensors_data/data.db"
 
 # Function to get the last 10 sensor records from the database
 def get_sensor_data():
